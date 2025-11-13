@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1 align="center">ABES Engneering Collage </h1>
+ <h2 align="center">Student Resistration Form</h2>  
+ <hr>
+ <form>
+     <table border="2" collspane="2" size="90">
+         <tr>
+             <td>Student Name:</td>
+             <td><input type="text" placeholder="Enter Your Name "></td>
+         </tr>
+
+         <tr>
+                <td>DOB:</td>
+                <td><input type="number" placeholder="Date of Birth"></td>
+            </tr>
+
+            <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio"  value="male"></td>male
+                    <td><input type="radio"  value="Female"></td>Female
+
+                </tr>
+
+
+
+
+
+         <tr>
+             <td>Course:</td>
+             <td><input type="text" placeholder="Course"></td>
+         </tr>
+         <tr>
+             <td>contect</td>
+             <td><input type="number" placeholder="Contect No:"></td>
+             -
+             <td><input type="number" placeholder="Alternate Mobile No."></td>
+
+         </tr>
+         <tr>
+             <td>Email:</td>
+             <td> <input type="email" placeholder=Email Address> </td>
+         </tr>
+         <tr>
+                <td>Course:</td>
+                <td><input type="text" placeholder="Course"></td>
+            </tr>
+
+         <tr > 
+            <td > <input type="submit" value="submit"  > </td>
+            <td  > <input type="button" value="Reset"  > </td>
+         </tr>
+     </table>
+
+ </form>
+kefjtkdfjegpoq4
+ <hr>
+ <p align="center"> &copy; All right Reserved </p>
+</body>
+</html>

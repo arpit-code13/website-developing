@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>layout004</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    header {
+        width:100%;
+        height: 100px;
+        background-color: #333;
+        color:#fff;
+        line-height: 100px;
+        text-align: center;
+        margin-bottom:15px;
+
+    }
+
+
+    section{
+        width: 100%;
+        height:250px;
+        background-color: gray;
+        display: flex;
+        /* margin-bottom: 10px; */
+        justify-content: space-between;
+
+    }
+
+
+    .left , .box_right {
+
+        width:70%;
+        background-color:#0f3d3e;
+        color: #fff;
+        padding:10px;
+        margin: 10px;
+    }
+
+    .box_left ,.right {
+        width:30%;
+        background-color:#f5ab0c;
+        color: #fff;
+        padding:10px;
+        margin: 10px;
+
+    }
+
+    
+    footer{
+        width:100%;
+        background:linear-gradient(90deg,#f5ab0c,#0f3d3e);
+        color: #fff;
+        text-align: center;
+        line-height: 70px;
+        height: 70px;
+    }
+
+    p2{
+        color:rgb(168, 4, 4);
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recarnation In Another World </h1>
+    </header>
+
+    <section>
+        <div class="left">left1</div>
+        <div class="right">right1</div>
+    </section>
+
+    <section>
+        <div class="box_left">left2</div>
+        <div class="box_right">right2</div>
+    </section> 
+
+
+    <footer>
+<p>&copy; All Right Reserved <p2>&hearts;</p2> </p>
+
+    </footer>
+    
+</body>
+</html>
